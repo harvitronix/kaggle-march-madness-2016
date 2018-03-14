@@ -1,7 +1,28 @@
-This is the code I used for my submission for the 2016 March Madness Kaggle competition. It landed me in 63rd place out of 598 people, with a logloss of 0.544479.
+Let's predict March Madness results using Kaggle NCAA Basketball data!
 
-Run with:
+Inputs
+======
 
-```python3 mm.py```
+Uses data from the Kaggle competition, ie https://www.kaggle.com/c/march-machine-learning-mania-2017/data
 
-Full writeup here: https://medium.com/@harvitronix/this-is-how-i-used-machine-learning-to-accurately-predict-villanova-to-win-the-2016-march-madness-ba5c074f1583#.e6xllp64p
+Import data from CSV files into a data directory.
+
+Requirements
+============
+
+Python3
+
+```pip install -r requirements.txt```
+
+To run
+======
+
+```python3 mm.py -d <data directory>```
+
+Outputs
+=======
+
+- less-readable-predictions.csv
+- readable-predictions.csv
+- submission.csv
+
